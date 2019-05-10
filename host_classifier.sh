@@ -62,7 +62,7 @@ function getOS() {
 }
 
 ##############################################
-# Parse the naming conention elements of the hostname
+# Parse the naming convention elements of the hostname
 ##############################################
 function parseName() {
   local str=$1
@@ -89,7 +89,7 @@ function printInfo() {
 
 ##############################################
 # Read the files that are provided as command-line
-# parameters and process the hostnames (one per line)
+# arguments and process the hostnames (one per line)
 ##############################################
 function readFiles() {
   # File names sent as parameters
