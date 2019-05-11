@@ -3,13 +3,14 @@ File = host_file.txt
 ==============================
 OS Windows              = 2
 OS Linux                = 3
-OS Other                = 0
+OS Other                = 2
 Environment Production  = 3
-Environment Development = 2
-Environment Other       = 0
+Environment Development = 3
+Environment Other       = 1
 
 The following hostnames do not conform to the naming convention:
 usohdlooo00.dev.domain.tld
 abcdef.dev.encore.tech
 123455.mgt.encore.tech
+locationplsome110.affinionds.com
 

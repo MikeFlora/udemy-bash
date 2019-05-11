@@ -119,7 +119,7 @@ function readFiles() {
       IFS="." read -ra baseName <<< $LINE
       
       # Check to see if the hostname is the correct length according to the naming convention
-      if [ ${#baseName} -lt 12 ]
+      if [ ${#baseName} -ne 12 ]
       then
         # If not, then add the line contents to the "INVALID" array
         INVALID+=("${LINE}")
